@@ -14,9 +14,7 @@ import com.distribuida.entities.Empleado;
 public class PrincipalEmpleado {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		//Patron IoC Invercion del control 
+
 		
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
 		
